@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+gem 'rubocop'
+gem 'bundler'
+gem 'colorize'
 
-# Specify your gem's dependencies in linter.gemspec
-gemspec
