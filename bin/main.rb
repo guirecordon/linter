@@ -1,5 +1,6 @@
 require_relative '../lib/linter.rb'
 require 'strscan'
+require 'colorize'
 
 text_file = File.open("../user.txt")
 text = text_file.read
@@ -9,3 +10,4 @@ text_clean = lower_caser.gsub(/[^0-9a-z\n ]/i, '')
 
 run = Glamourly.new(text_clean)
 run.lint
+

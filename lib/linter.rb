@@ -1,4 +1,5 @@
 require 'strscan'
+require 'colorize'
 
 class Glamourly
   
@@ -79,7 +80,7 @@ class Glamourly
       elsif @level1_hash.each do |k, v|
           if k == word
             @error_level1 += 1
-            puts "LINE:#{@liner}: Lacks Articulation - replace '#{word}' for a more suggestive adjetive"
+            puts "LINE:#{@liner}: Lacks Articulation - replace '#{word}' for a more suggestive adjetive".red
           end
         end
       end
@@ -87,13 +88,14 @@ class Glamourly
   end
 
   def level2_check
+    @liner = 1
     @array.each do |word|
       if word == 'lyny'
         @liner += 1
       elsif @level2_hash.each do |k, v|
         if k == word
           @error_level2 += 1
-          puts "LINE:#{@liner}: Lacks Engagement - '#{word}'. The following are possible substitutes: #{v}"
+          puts "LINE:#{@liner}: Lacks Engagement - '#{word}'. The following are possible substitutes: #{v}".yellow
         end
       end
     end
@@ -102,13 +104,13 @@ class Glamourly
   end
 
   def error_message
-    puts "#{@error_level1} assassination(s) of the written language"
-    puts "#{@error_level2} attempt(s) to bore the reader to death"
+    puts "#{@error_level1} assassination(s) of the written language".red
+    puts "#{@error_level2} attempt(s) to bore the reader to death".yellow
   end
 
   def hemmingway_badge
     if @error_level1 == 0 and @error_level2 == 0
-      puts 'Good job! You\'ve earned the Hemmingway badge! You\'re well on your way to literary stardom!'
+      puts 'Good job! You\'ve earned the Hemmingway badge! You\'re well on your way to literary stardom!'.green
     end
   end
 
