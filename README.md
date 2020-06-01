@@ -1,38 +1,41 @@
 # Linter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/linter`. To experiment with that code, run `bin/console` for an interactive prompt.
+<br />
+<p align="center">
+  <a href="https://github.com/guirecordon/tic-tac-toe">
+    <img src="images/microverse-logo.webp" alt="Logo" width="100" height="100">
+  </a>
 
-TODO: Delete this and the text above, and describe your gem
+  <h3 align="center">Linter</h3>
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'linter'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install linter
+  <p align="center">
+    This project is a part of the Microverse Ruby curriculum
+    <br />
+    <a href="https://github.com/guirecordon/linter"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/guirecordon/linter/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/guirecordon/linter/issues">Request Feature</a>
+  </p>
+</p>
 
 ## Usage
 
-Instructions will go here. 
+1. Run the line bellow in your terminal to clone this repo in your computer
+    `git clone git@github.com:guirecordon/linter.git`
+
+2. When you open the repo, you will see a txt file called user.txt.
+   Remove the example text and paste your own text (email, essay, etc) into the body of the user.txt file 
+
+3. From the command line, from the root directory (the main linter repo folder), run the following:
+   `ruby bin/main.rb`
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/linter.
 
 ## License
 

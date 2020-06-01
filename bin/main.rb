@@ -2,7 +2,7 @@ require_relative '../lib/linter.rb'
 require 'strscan'
 require 'colorize'
 
-text_file = File.open('../user.txt')
+text_file = File.open('user.txt')
 text = text_file.read
 one_liner = text.gsub(/\n/, ' lyny ')
 lower_caser = one_liner.downcase
