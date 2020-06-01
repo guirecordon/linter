@@ -1,4 +1,4 @@
-# Glamourly - If you write anything on your computer, you need to use Glamourly
+# Glamourly - If you want to glamorize anything you write on your computer, you need to get Glamourly
 
 <br />
 <p align="center">
@@ -22,7 +22,7 @@
 
 ## Usage
 
-1. Run the line bellow in your terminal to clone this repo in your computer
+1. Run the line below in your terminal to clone this repo to your computer <br>
     `git clone git@github.com:guirecordon/linter.git`
 
 2. When you open the repo, you will see a txt file called user.txt.
@@ -33,16 +33,31 @@
 
 ## Development
 
-Glamourly is designed to help the user improve their writing skills. It encourages the consider expand their vocabulary usage.
+Glamourly is designed to help users improve their writing skills by expanding their vocabulary.
 
-I got the idea after I came across this vocabulary diagram I found on the web: 
+I got the idea after I came across this vocabulary diagram I found online: 
 
 <img src="images/increase_your_vocabulary_diagram.jpg">
 
-The words inside of the innermost circle, I designated them as level 1 words. They should be avoided at all costs. The user is going to get a linter 'error' message if they try to use one of those.
+I designated the words inside of the innermost circle level 1. They should be avoided at all costs. The user gets a red linter "error" if they try to use one of those.
 
-The words in the middle circle, I designated them as being level 2 words. Because they are already more descriptive adjetives, instead of getting an 'error', the user is simply asked to consider replacing them by even more sophisticated options. These options are the word found in the outer layer in the diagram above.
-At this point, the user is faced with a humorous linter message that suggests that the user(the writer in this case) might be trying to bore the reader to death by using lame adjetives. It is supposed to be humorous, no offense is intended.
+<img src="images/level1-error.png">
+
+I designated the words in the middle circle level 2. Because they are already more descriptive adjectives, instead of a red linter "error", the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
+
+<img src="images/level2-error.png">
+
+The two last lines display the sum of occurrences of level 1 and level 2 errors. 
+
+<img src="images/summary.png">
+
+At this point, the user is faced with humorous linter messages that suggest the assassination of the language and attempts to bore the readers. It is supposed to be burlesque, no offense is intended. (I hope you noticed I used the word "burlesque"—thanks Glamourly for improving my writing ;D)
+
+Another reason why the linter errors sound purposedly dramatic is to pick up on the seemingly overdramatic nature of linter error names that pop up in one's command line (things like 'fatal', 'offenses', etc) 
+
+<img src="images/hemmingway.png">
+
+Lastly, if the user manages to avoid all of level 1 and 2 words, he or she is granted the "Hemmingway" badge and is greeted for a job well done.
 
 
 ## Contributing
