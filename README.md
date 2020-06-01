@@ -20,6 +20,15 @@
   </p>
 </p>
 
+## Table of Contents
+
+* [Usage](#usage)
+* [Development](#development)
+  * [Built With](#built-with)
+* [Author](#author)
+* [Show Support](#show-your-support)
+* [Acknowledgements](#acknowledgements)
+
 ## Usage
 
 1. Run the line below in your terminal to clone this repo to your computer <br>
@@ -43,7 +52,7 @@ I designated the words inside of the innermost circle level 1. They should be av
 
 <img src="images/level1-error.png">
 
-I designated the words in the middle circle level 2. Because they are already more descriptive adjectives, instead of a red linter "error", the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
+I designated the words in the middle circle level 2. Because they are already more descriptive adjectives, instead of a red linter error, the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
 
 <img src="images/level2-error.png">
 
@@ -60,7 +69,24 @@ Another reason why the linter errors sound purposedly dramatic is to pick up on 
 Lastly, if the user manages to avoid all of level 1 and 2 words, he or she is granted the "Hemmingway" badge and is greeted for a job well done.
 
 
-## Contributing
+### Built With
+* Ruby
+* Rspec
+
+## Author
+👤 **Guilherme Recordon** 
+
+- Twitter: [@guirecordon](https://twitter.com/guirecordon) 
+- Github: [@guirecordon](https://github.com/guirecordon)
+- LinkedIn: [@GuilhermeRecordon](www.linkedin.com/in/gui-recordon-marketingmba/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgements
+
+A shout out to all of my Microverse team for the support. Special thanks to @bren2102 for helping me to figure out how to start this project!
 
 
 ## License
