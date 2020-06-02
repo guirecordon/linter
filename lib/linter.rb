@@ -17,8 +17,8 @@ class Glamourly
 
   def populate_array
     until @s.eos?
-      p @s.scan(/\s+/)
-      p @array << @s.scan(/\w+/)
+      @s.scan(/\s+/)
+      @array << @s.scan(/\w+/)
     end
   end
 
