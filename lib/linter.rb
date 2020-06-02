@@ -3,6 +3,8 @@ require 'colorize'
 require_relative 'vocabulary.rb'
 
 class Glamourly
+  attr_accessor :s, :liner, :error_level1, :error_level2, :array, :level1_hash, :level2_hash
+
   def initialize(string)
     @s = StringScanner.new(string)
     @liner = 1
@@ -15,8 +17,8 @@ class Glamourly
 
   def populate_array
     until @s.eos?
-      @s.scan(/\s+/)
-      @array << @s.scan(/\w+/)
+      p @s.scan(/\s+/)
+      p @array << @s.scan(/\w+/)
     end
   end
 

@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/guirecordon/tic-tac-toe">
-    <img src="images/microverse-logo.webp" alt="Logo" width="100" height="100">
+    <img src="attachments/microverse-logo.webp" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Linter</h3>
@@ -31,7 +31,7 @@
 
 ## Usage
 
-1. Run the line below in your terminal to clone this repo to your computer <br>
+1. Run the following on your terminal to clone this repo to your computer <br>
     `git clone git@github.com:guirecordon/linter.git`
 
 2. When you open the repo, you will see a txt file called user.txt.
@@ -46,25 +46,25 @@ Glamourly is designed to help users improve their writing skills by expanding th
 
 I got the idea after I came across this vocabulary diagram I found online: 
 
-<img src="images/increase_your_vocabulary_diagram.jpg">
+<img src="attachments/increase_your_vocabulary_diagram.jpg">
 
 I designated the words inside of the innermost circle level 1. They should be avoided at all costs. The user gets a red linter "error" if they try to use one of those.
 
-<img src="images/level1-error.png">
+<img src="attachments/level1-error.png">
 
 I designated the words in the middle circle level 2. Because they are already more descriptive adjectives, instead of a red linter error, the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
 
-<img src="images/level2-error.png">
+<img src="attachments/level2-error.png">
 
 The two last lines display the sum of occurrences of level 1 and level 2 errors. 
 
-<img src="images/summary.png">
+<img src="attachments/summary.png">
 
 At this point, the user is faced with humorous linter messages that suggest the assassination of the language and attempts to bore the readers. It is supposed to be burlesque, no offense is intended. (I hope you noticed I used the word "burlesque"—thanks Glamourly for improving my writing ;D)
 
 Another reason why the linter errors sound purposedly dramatic is to pick up on the seemingly overdramatic nature of linter error names that pop up in one's command line (things like 'fatal', 'offenses', etc) 
 
-<img src="images/hemmingway.png">
+<img src="attachments/hemmingway.png">
 
 Lastly, if the user manages to avoid all of level 1 and 2 words, he or she is granted the "Hemmingway" badge and is greeted for a job well done.
 
@@ -86,7 +86,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgements
 
-A shout out to all of my Microverse team for the support. Special thanks to @bren2102 for helping me to figure out how to start this project!
+A shout out to all of my Microverse team for the support. Special thanks to @bren2102 for helping me figure out how to start this project!
 
 
 ## License
