@@ -43,7 +43,7 @@ That should return the version of Ruby that's running on your computer.
 
 If you need to install Ruby, follow the instructions in this [webpage](https://www.ruby-lang.org/en/documentation/installation/).
 
-### instal gems
+### Instal gems
 
 You're going to need the following gems, if you don't have them already.
 
@@ -62,10 +62,10 @@ Now, all you have to do is clone this repo to your local machine.
 1. Run the following on your terminal to clone this repo to your computer <br>
     `git clone git@github.com:guirecordon/linter.git`
 
-2. When you open the repo, you will see a txt file called user.txt.
-   Remove the example text and paste your own text (email, essay, etc) into the body of the user.txt file 
+2. When you open the repo, you will see a txt file called _user.txt_.
+   Remove the example text and paste your own text (email, essay, etc) into the body of the **user.txt** file 
 
-3. From the command line, from the root directory (the main linter repo folder), run the following:
+3. From the command line, inside of the root directory (the main repository folder), run the following: <br>
    `ruby bin/main.rb`
 
 ## Development
@@ -76,11 +76,11 @@ I got the idea after I came across this vocabulary diagram I found online:
 
 <img src="attachments/increase_your_vocabulary_diagram.jpg">
 
-I designated the words inside of the innermost circle level 1. They should be avoided at all costs. The user gets a red linter "error" if they try to use one of those.
+I designated the words inside of the innermost circle as *level 1*. They should be avoided at all costs. The user gets a red linter "error" if they try to use one of them.
 
 <img src="attachments/level1-error.png">
 
-I designated the words in the middle circle level 2. Because they are already more descriptive adjectives, instead of a red linter error, the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
+I designated the words in the middle circle as *level 2*. Because they are already more descriptive adjectives, instead of a red linter error, the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
 
 <img src="attachments/level2-error.png">
 
