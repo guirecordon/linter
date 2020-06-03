@@ -29,7 +29,7 @@ class Glamourly
       elsif @level1_hash.each do |k, _v|
         if k == word
           @error_level1 += 1
-          puts "LINE:#{@liner}: Lacks Articulation - replace '#{word}' for a more suggestive adjetive".red
+          puts "LINE:#{@liner}: Lacks Articulation - replace '#{word}' with a more suggestive adjetive".red
         end
       end
       end
