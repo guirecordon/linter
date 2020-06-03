@@ -31,6 +31,26 @@
 
 ## Usage
 
+If you already have Ruby installed in your computer, go to [install gems](#install-gems).
+
+If you're not sure wether or not you have Ruby, type the following in your command line:<br>
+`ruby -v`
+That should return the version of Ruby that's running on your computer. 
+
+If you need to install Ruby, follow the instructions in this [webpage](https://www.ruby-lang.org/en/documentation/installation/).
+
+### instal gems
+
+You're going to need the following gems, if you don't have them already.
+
+#### 'colorize'
+
+`gem install colorize`
+
+### Clone the Repo
+
+Now, all you have to do is clone this repo to your local machine.
+
 1. Run the following on your terminal to clone this repo to your computer <br>
     `git clone git@github.com:guirecordon/linter.git`
 
