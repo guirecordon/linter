@@ -20,6 +20,10 @@
   </p>
 </p>
 
+<p align="center">
+  <img src="attachments/welcome.png">
+<p>
+
 ## Table of Contents
 
 * [Usage](#usage)
@@ -46,6 +50,10 @@ You're going to need the following gems, if you don't have them already.
 #### 'colorize'
 
 `gem install colorize`
+
+#### 'lolize'
+
+`gem install lolize`
 
 ### Clone the Repo
 
