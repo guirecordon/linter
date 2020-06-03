@@ -6,7 +6,8 @@ describe Glamourly do
   describe '#populate_array' do
     it 'returns an array of strings' do
       glamourly = Glamourly.new('bad example string')
-      expect(glamourly.populate_array).to eq %w[bad example string]
+      glamourly.populate_array
+      expect(glamourly.array).to eq %w[bad example string]
     end
   end
 
