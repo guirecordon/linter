@@ -94,7 +94,7 @@ Another reason why the linter errors sound purposedly dramatic is to pick up on 
 
 <img src="attachments/hemmingway.png">
 
-Lastly, if the user manages to avoid all of level 1 and 2 words, he or she is granted the "Hemmingway" badge and is greeted for a job well done.
+Lastly, if the user manages to avoid all of level 1 and 2 words, he or she is granted the Hemmingway badge and is greeted for a job well done.
 
 
 ### Built With
