@@ -82,5 +82,16 @@ describe Glamourly do
     end
   end
 
+  describe '#error_message' do
+    it 'prints to the console the error counts' do
+      glamourly = Glamourly.new('This is a happy and powerful example')
+      glamourly.populate_array
+      glamourly.level1_check
+      glamourly.level2_check
+      expect{ glamourly.error_message }.to output{ "1 assassination(s) of the written language\n"
+    "1 attempt(s) to bore the reader to death\n" }.to_stdout
+    end
+  end
+
 
 end
