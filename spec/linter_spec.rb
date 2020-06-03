@@ -93,13 +93,11 @@ describe Glamourly do
     end
   end
 
-describe '#hemmingway_badge' do
+  describe '#hemmingway_badge' do
     it 'prints to the console if both error_level1 and error_level2 equal to zero' do
       glamourly = Glamourly.new('Any string can go here for this example')
       expect{ glamourly.hemmingway_badge }.to output{ 'Good job! You\'ve earned the Hemmingway badge! 
       You\'re well on your way to literary stardom!' }.to_stdout
     end
   end
-
-
 end
