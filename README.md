@@ -1,38 +1,121 @@
-# Linter
+# Glamourly - If you want to glamorize anything you write on your computer, you need to get Glamourly
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/linter`. To experiment with that code, run `bin/console` for an interactive prompt.
+<br />
+<p align="center">
+  <a href="https://github.com/guirecordon/tic-tac-toe">
+    <img src="attachments/microverse-logo.webp" alt="Logo" width="100" height="100">
+  </a>
 
-TODO: Delete this and the text above, and describe your gem
+  <h3 align="center">Linter</h3>
 
-## Installation
+  <p align="center">
+    This project is a part of the Microverse Ruby curriculum
+    <br />
+    <a href="https://github.com/guirecordon/linter"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/guirecordon/linter/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/guirecordon/linter/issues">Request Feature</a>
+  </p>
+</p>
 
-Add this line to your application's Gemfile:
+<p align="center">
+  <img src="attachments/welcome.png">
+<p>
 
-```ruby
-gem 'linter'
-```
+## Table of Contents
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install linter
+* [Usage](#usage)
+* [Development](#development)
+  * [Built With](#built-with)
+* [Author](#author)
+* [Show Support](#show-your-support)
+* [Acknowledgements](#acknowledgements)
 
 ## Usage
 
-Instructions will go here. 
+If you already have Ruby installed in your computer, go to [install gems](#install-gems).
+
+If you're not sure wether or not you have Ruby, type the following in your command line:<br>
+`ruby -v`
+That should return the version of Ruby that's running on your computer. 
+
+If you need to install Ruby, follow the instructions in this [webpage](https://www.ruby-lang.org/en/documentation/installation/).
+
+### Instal gems
+
+You're going to need the following gems, if you don't have them already.
+
+#### 'colorize'
+
+`gem install colorize`
+
+#### 'lolize'
+
+`gem install lolize`
+
+### Clone the Repo
+
+Now, all you have to do is clone this repo to your local machine.
+
+1. Run the following on your terminal to clone this repo to your computer <br>
+    `git clone git@github.com:guirecordon/linter.git`
+
+2. When you open the repo, you will see a txt file called _user.txt_.
+   Remove the example text and paste your own text (email, essay, etc) into the body of the **user.txt** file 
+
+3. From the command line, inside of the root directory (the main repository folder), run the following: <br>
+   `ruby bin/main.rb`
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Glamourly is designed to help users improve their writing skills by expanding their vocabulary.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+I got the idea after I came across this vocabulary diagram I found online: 
 
-## Contributing
+<img src="attachments/increase_your_vocabulary_diagram.jpg">
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/linter.
+I designated the words inside of the innermost circle as *level 1*. They should be avoided at all costs. The user gets a red linter "error" if they try to use one of them.
+
+<img src="attachments/level1-error.png">
+
+I designated the words in the middle circle as *level 2*. Because they are already more descriptive adjectives, instead of a red linter error, the user is simply asked to consider replacing them with even more sophisticated options. The user is then prompted with a couple of suggestions taken from words inside of the outer layer of the diagram above.
+
+<img src="attachments/level2-error.png">
+
+The two last lines display the sum of occurrences of level 1 and level 2 errors. 
+
+<img src="attachments/summary.png">
+
+At this point, the user is faced with humorous linter messages that suggest the assassination of the language and attempts to bore the readers. It is supposed to be burlesque, no offense is intended. (I hope you noticed I used the word "burlesque"—thanks Glamourly for improving my writing ;D)
+
+Another reason why the linter errors sound purposedly dramatic is to pick up on the seemingly overdramatic nature of linter error names that pop up in one's command line (things like 'fatal', 'offenses', etc) 
+
+<img src="attachments/hemmingway.png">
+
+Lastly, if the user manages to avoid all of level 1 and 2 words, he or she is granted the Hemmingway badge and is greeted for a job well done.
+
+
+### Built With
+* Ruby
+* Rspec
+
+## Author
+👤 **Guilherme Recordon** 
+
+- Twitter: [@guirecordon](https://twitter.com/guirecordon) 
+- Github: [@guirecordon](https://github.com/guirecordon)
+- LinkedIn: [@GuilhermeRecordon](www.linkedin.com/in/gui-recordon-marketingmba/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgements
+
+A shout out to all of my Microverse team for the support. Special thanks to @bren2102 for helping me figure out how to start this project!
+
 
 ## License
 
