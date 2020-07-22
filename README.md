@@ -9,7 +9,7 @@
   <h3 align="center">Linter</h3>
 
   <p align="center">
-    This project is a part of the Microverse Ruby curriculum
+    This project is part of the Microverse Ruby curriculum
     <br />
     <a href="https://github.com/guirecordon/linter"><strong>Explore the docs »</strong></a>
     <br />
